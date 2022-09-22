@@ -1,0 +1,47 @@
+extends base.pug
+
+block scripts
+  script(src='../static/index.js')
+block style
+    style
+      include ../static/style.css
+
+block content
+    
+    section#introSection
+        div Welcome to Dash Dance Acadmy 
+        div.small Eat Sleep Dance Repeat 
+    
+    section#missionSection 
+        h2 Our Mission
+        div.card_container
+            div.card 
+                h3 Dance Perfaction
+                div.card-box
+                    div.card-img
+                        img(src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.simplybusiness.co.uk%2Fstatic%2F99325804b1c3033beaca35e267700463%2Faef24%2Fhow-to-become-a-dance-teacher.jpg&f=1&nofb=1")
+                    p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium commodi voluptatem autem corporis? Recusandae?
+
+            div.card 
+                h3 Dance the way you like
+                div.card-box
+                    div.card-img
+                        img(src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.leytonfc.co.uk%2Fwp-content%2Fuploads%2F2018%2F07%2Fdance-classes-1140x753.jpg&f=1&nofb=1")
+                    p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium commodi voluptatem autem corporis? Recusandae?
+
+            div.card 
+                h3 Expert teaching
+                div.card-box
+                    div.card-img
+                        img(src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.royalballetschool.org.uk%2Fwp-content%2Fuploads%2F2019%2F12%2FCROPPED-scaled-846x321.jpg&f=1&nofb=1")
+                    p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium commodi voluptatem autem corporis? Recusandae?
+
+    section#sponsorSection 
+        h2 Our Sponsors 
+            div#sponsors
+                img(src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.freepnglogos.com%2Fuploads%2Fvisa-inc-png-18.png&f=1&nofb=1", alt="sponsor image" Class="sp_img")
+                img(src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.freelogovectors.net%2Fwp-content%2Fuploads%2F2012%2F02%2Fdell-logo_2016.png&f=1&nofb=1", alt="sponsor image" Class="sp_img")
+                img(src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flogos-world.net%2Fwp-content%2Fuploads%2F2020%2F04%2FAdidas-Logo-1971-present.png&f=1&nofb=1", alt="sponsor image" Class="sp_img")
+                img(src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.freebiesupply.com%2Fimages%2Flarge%2F2x%2Fred-bull-logo-png-transparent.png&f=1&nofb=1", alt="sponsor image" Class="sp_img")
+                img(src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Flogos-download.com%2Fwp-content%2Fuploads%2F2016%2F03%2FLays_logo.png&f=1&nofb=1", alt="sponsor image" Class="sp_img")
+

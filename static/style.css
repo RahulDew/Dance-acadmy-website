@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400&family=Lobster&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    scroll-behavior: smooth;
+    background-color: rgb(246, 206, 186);
+}
+
+#logo{
+      display: flex;
+      flex-direction: row;
+      font-family: Arial, sans-serif;
+      
+      /* justify-content: space-around; */
+}
+#logo h1{
+    color: whitesmoke;
+    font-size: 35px;
+    margin: auto 8px;
+}
+#logo img{
+    width: 42px;
+    border-radius: 50%;
+    filter: invert(1);
+}
+#navbar{
+    background-color: rgb(103, 32, 46);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 15px 3rem;
+}
+#navbar ul{
+    display:flex;
+    flex-direction: row;
+}
+#navbar ul li{
+    font-size: 17px;
+    list-style: none;
+    margin: auto 14px;
+    font-family: Arial, sans-serif;
+}
+#navbar ul li a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+    color: rgb(229, 107, 107);
+    /* transform: scale(2); */
+}
+
+
+/* _____________Intro Section code____________ */
+
+#introSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 60px;
+    align-items: center;
+    height: 90vh;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 0.35) 0%, rgba(0, 38, 47, 0.358) 100%) , url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Felitedancepac.com%2Fwp-content%2Fuploads%2F2019%2F08%2FDanceTeam1header.png&f=1&nofb=1") center/cover no-repeat ;
+    
+    color: white;
+    font-weight: 550;
+    font-family: 'Lobster', cursive;
+}
+#introSection .small{
+    font-size: 45px;
+    padding: 10px;
+}
+
+
+
+
+/* _____________Mission Section code____________ */
+
+
+#missionSection{
+    height: 75vh;
+    width: 80%;
+    margin:  2.5rem auto;
+    text-align: center;
+}
+#missionSection h2{
+    font-size: 55px;
+    padding-top: 16px;
+    font-family: 'Lobster', cursive;
+}
+.card_container{
+    display: flex;
+    flex-direction: row;
+    padding: 2%;
+}
+#missionSection .card{
+    border-radius: 7px;
+    margin: 2%;
+    padding: 2%;
+    background-color: rgb(221, 234, 244);
+    font-family: Arial, sans-serif;
+    box-shadow:  24px 24px 48px rgba(156, 146, 134, 0.361),
+             -24px -24px 48px antiquewhite;
+    transition: .2s ease-in-out;
+}
+#missionSection .card:hover{
+    background-color: whitesmoke;
+    transform: scale(1.06);
+    box-shadow:  24px 24px 48px rgba(156, 146, 134, 0.319),
+             -24px -24px 48px antiquewhite;
+
+}
+#missionSection .card h3{
+    font-size: 22px;
+}
+.card-img img{
+    width: 250px;
+    height: 150px;
+    margin: 1rem;
+    border-radius: 7px;
+}
+
+/* _____________Sponsor Section code____________ */
+
+
+#sponsorSection{
+    height: 50vh;
+    /* background-color: rgb(103, 32, 46); */
+    text-align: center;
+    color: black;
+    font-family: 'Lobster', cursive;
+    margin-top: 2rem;
+}
+#sponsorSection h2{
+    font-size: 55px;
+}
+#sponsors{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 5rem auto;
+    /* justify-content: space-evenly; */
+}
+.sp_img{
+    height: 80px;
+    margin: auto 3rem;
+    transition: .2s ease-in-out;
+}
+.sp_img:hover{
+    transform: scale(1.2);
+}
+
+
+
+
+
+#footer{
+    height: 15vh;
+    background-color: rgb(103, 32, 46);
+    text-align: center;
+    font-size: 28px;
+    color: whitesmoke;
+    font-family: Arial, sans-serif;
+    padding-top: 3rem;
+}
