@@ -1,3 +1,3 @@
 # Dance-acadmy-website
 
-Simple express website i learned from CodeWithHarry
+It's Node js and express website which also have some special features like contact for, great UI, and good performance.
